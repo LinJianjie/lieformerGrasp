@@ -1,0 +1,11 @@
+python3  ../transformergrasp/tp_models/train_PTgrasp.py  \
+--batch_size 16 \
+--start_epoch 0 \
+--epochs 500 \
+--checkpoint_name  checkpoints/best_model_PTgrasp.pth  \
+--best_name  best_model_PTgrasp.pth \
+--load_checkPoints True \
+--evaluate_prefix checkpoints/best_model_PTgrasp_YCB_256_2 \
+--yaml_file ../transformergrasp/tp_models/PTnet_grasp.yaml \
+--train False \
+--evaluate True

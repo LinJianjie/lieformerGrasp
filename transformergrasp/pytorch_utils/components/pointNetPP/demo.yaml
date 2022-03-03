@@ -1,0 +1,11 @@
+SA_modules:
+  - ratio: 0.5
+    in_channel: 0
+    radius_list: [ 0.5 ]
+    max_sample_list: [ 64 ]
+    mlp_list: [ [ 64, 128, 128 ] ]
+  - ratio: 0.25
+    in_channel: 128
+    radius_list: [ 0.5 ]
+    max_sample_list: [ 64 ]
+    mlp_list: [ [ 128,256,512 ] ]
