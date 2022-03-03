@@ -4,7 +4,8 @@
 #### 1) Prerequisite
 1. Install dependencies via `pip3 install -r requirments.txt`.
 2. Follow [this guide](http://open3d.org/docs/getting_started.html) to install Open3D for point cloud I/O.
-3. Build the point cloud distance metric in the folder transformergrap\pytorch_utils\components\externs_tools by running build.sh
+3. Build the point cloud distance metric in the folder 
+   ```transformergrap\pytorch_utils\components\externs_tools``` by running build.sh
 4. This code is built using pytorch 1.7 with CUDA 10.0 and tested on Ubuntu 18.04 with Python 3.7
 ### Dataset 
 1. We use the [[Acronym]](https://github.com/NVlabs/acronym#using-the-full-acronym-dataset) to generate the dataset, we modify the grasp dataset to assign each grasp configuration an unique corresponding grasp point
