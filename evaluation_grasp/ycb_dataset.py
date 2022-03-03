@@ -30,7 +30,7 @@ if __name__ == '__main__':
     # print(points.shape)
     # obj_data.close()
     file1 = open("ycb_dataset_class.csv", "w")
-    for root, dirs, files in os.walk(obj_dir):
+    for root, dirs, files in os.walk(obj_dir): # we found, in different operation system, the ordering can be different
         if files:
             obj_filename = None
             collision_filename = None
